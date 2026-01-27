@@ -25,22 +25,6 @@
       "title": "CLIP Text Encode (Negative Prompt)"
     }
   },
-  "8": {
-    "inputs": {
-      "samples": [
-        "58",
-        0
-      ],
-      "vae": [
-        "39",
-        0
-      ]
-    },
-    "class_type": "VAEDecode",
-    "_meta": {
-      "title": "VAE Decode"
-    }
-  },
   "37": {
     "inputs": {
       "unet_name": "WAN22/wan2.2_i2v_high_noise_14B_fp16.safetensors",
@@ -73,7 +57,7 @@
   },
   "54": {
     "inputs": {
-      "shift": 8.000000000000002,
+      "shift": 8,
       "model": [
         "37",
         0
@@ -110,7 +94,7 @@
   "57": {
     "inputs": {
       "add_noise": "enable",
-      "noise_seed": 306189419888845,
+      "noise_seed": 345155053298964,
       "steps": [
         "120",
         0
@@ -152,7 +136,7 @@
   "58": {
     "inputs": {
       "add_noise": "disable",
-      "noise_seed": 0,
+      "noise_seed": 961224283760979,
       "steps": [
         "120",
         0
@@ -208,7 +192,7 @@
   },
   "62": {
     "inputs": {
-      "image": "video_wan2_2_14B_i2v_input_image.jpg"
+      "image": "96c79302-bb5d-4f3c-ae1b-4f9f00407a01-jpg.jpg"
     },
     "class_type": "LoadImage",
     "_meta": {
@@ -253,7 +237,7 @@
         1
       ],
       "images": [
-        "8",
+        "123",
         0
       ]
     },
@@ -312,11 +296,11 @@
   },
   "120": {
     "inputs": {
-      "value": 0
+      "value": 20
     },
     "class_type": "PrimitiveInt",
     "_meta": {
-      "title": "Int"
+      "title": "steps"
     }
   },
   "121": {
@@ -330,11 +314,31 @@
   },
   "122": {
     "inputs": {
-      "value": 0
+      "value": 3.5
     },
     "class_type": "PrimitiveFloat",
     "_meta": {
       "title": "CFG"
+    }
+  },
+  "123": {
+    "inputs": {
+      "tile_size": 512,
+      "overlap": 64,
+      "temporal_size": 128,
+      "temporal_overlap": 8,
+      "samples": [
+        "58",
+        0
+      ],
+      "vae": [
+        "39",
+        0
+      ]
+    },
+    "class_type": "VAEDecodeTiled",
+    "_meta": {
+      "title": "VAE Decode (Tiled)"
     }
   }
 }
