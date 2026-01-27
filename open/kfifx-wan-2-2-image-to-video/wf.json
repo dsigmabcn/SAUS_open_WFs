@@ -43,7 +43,7 @@
   },
   "37": {
     "inputs": {
-      "unet_name": "wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors",
+      "unet_name": "WAN22/wan2.2_i2v_high_noise_14B_fp16.safetensors",
       "weight_dtype": "default"
     },
     "class_type": "UNETLoader",
@@ -99,7 +99,7 @@
   },
   "56": {
     "inputs": {
-      "unet_name": "wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors",
+      "unet_name": "WAN22/wan2.2_i2v_low_noise_14B_fp16.safetensors",
       "weight_dtype": "default"
     },
     "class_type": "UNETLoader",

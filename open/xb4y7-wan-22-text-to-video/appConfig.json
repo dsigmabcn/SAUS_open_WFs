@@ -1,6 +1,6 @@
 {
   "id": "xb4y7",
-  "name": "Wan_22_Text_to_video",
+  "name": "Wan 22 Text to video",
   "url": "xb4y7-wan-22-text-to-video",
   "description": "Create videos from text using the 2 step model Wan 2.2. For the distilled versions, use the high and low loras with total 8 steps, step change at 4 and CFG of 1.",
   "prompts": [
