@@ -193,7 +193,7 @@
   },
   "61": {
     "inputs": {
-      "filename_prefix": "video/ComfyUI",
+      "filename_prefix": "WAN22/WAN22_I2V",
       "format": "auto",
       "codec": "auto",
       "video": [
@@ -219,11 +219,11 @@
     "inputs": {
       "width": 640,
       "height": 640,
-      "length": 81,
-      "batch_size": [
+      "length": [
         "118",
         0
       ],
+      "batch_size": 1,
       "positive": [
         "6",
         0
