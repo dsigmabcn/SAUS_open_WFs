@@ -84,7 +84,7 @@
     "inputs": {
       "cfg": 1,
       "model": [
-        "138",
+        "132",
         0
       ],
       "positive": [
@@ -494,6 +494,20 @@
     "class_type": "PrimitiveInt",
     "_meta": {
       "title": "Frame Rate(int)"
+    }
+  },
+  "132": {
+    "inputs": {
+      "lora_name": "LTX2/ltx-2-19b-distilled-lora-384.safetensors",
+      "strength_model": 1,
+      "model": [
+        "138",
+        0
+      ]
+    },
+    "class_type": "LoraLoaderModelOnly",
+    "_meta": {
+      "title": "DISTILLED LORA"
     }
   },
   "135": {

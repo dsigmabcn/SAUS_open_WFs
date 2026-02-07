@@ -129,7 +129,7 @@
         "inputs": {
             "cfg": 1,
             "model": [
-                "145",
+                "141",
                 0
             ],
             "positive": [
@@ -585,6 +585,20 @@
         "class_type": "CFGGuider",
         "_meta": {
             "title": "CFGGuider"
+        }
+    },
+    "141": {
+        "inputs": {
+            "lora_name": "LTX2/ltx-2-19b-distilled-lora-384.safetensors",
+            "strength_model": 1,
+            "model": [
+                "145",
+                0
+            ]
+        },
+        "class_type": "LoraLoaderModelOnly",
+        "_meta": {
+            "title": "LoraLoaderModelOnly"
         }
     },
     "144": {
