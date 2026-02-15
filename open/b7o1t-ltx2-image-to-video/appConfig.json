@@ -59,7 +59,7 @@
     {
       "id": "seedersy8mor",
       "label": "Seed",
-      "nodePath": "118.inputs.noise_seed"
+      "nodePath": "119.inputs.noise_seed"
     }
   ],
   "dimensionSelectors": [
